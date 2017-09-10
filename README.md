@@ -1,1 +1,0 @@
-# notties-weather.github.io
