@@ -7,28 +7,13 @@
 */
 ?>
 
-
-
-<!-- STEP 1: INCLUDE STYLESHEET && JAVASCRIPT IN YOUR <HEAD> -->
 <link rel="stylesheet" type="text/css" href="jbweather/css/style.css" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="jbweather/js/jbweather.js"></script>
 
-
-
-
-
-
-<!-- STEP 2: INCLUDE JBWEATHER PHP CLASS -->
 <?php require_once ("jbweather/jbww.php"); ?>
 
-
-
-
-
-
-<!-- STEP 3: ADJUST PARAMETERS -->
 <?php 
 // URL path to jbweather folder
 $parameters['url'] = 'jbweather';
